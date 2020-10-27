@@ -384,7 +384,7 @@ header .headerUpdate .french:hover {
 }
 
 .popUpFlex .popUpImage {
-  width: 74%;
+  width: 40%;
   margin-bottom: -0.5rem;
 }
 
@@ -394,6 +394,7 @@ header .headerUpdate .french:hover {
 
 .popUpBackground {
   background-color: #C9DED9;
+  width: 65%;
 }
 
 .popUpBackground .popUpSale {
@@ -602,6 +603,19 @@ main {
   .mainWrapper .sale {
     width: 10%;
   }
+  .popUpFlex .popUpImage {
+    width: 45%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 1295px) {
+  .popUpFlex .popUpImage {
+    width: 65%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -619,6 +633,9 @@ main {
   }
   .mainWrapper .offerSign {
     right: 33rem;
+  }
+  .modal .content {
+    width: 50%;
   }
 }
 
@@ -695,6 +712,12 @@ main {
   .mainWrapper .offerSign {
     right: 22rem;
     bottom: 12rem;
+  }
+  .popUpFlex .popUpImage {
+    display: none;
+  }
+  .popUpBackground {
+    width: 100%;
   }
 }
 
@@ -794,6 +817,9 @@ main {
   .mainWrapper .offerSign {
     right: 41rem;
   }
+  .modal .content {
+    width: 60%;
+  }
 }
 
 @media (max-width: 633px) {
@@ -830,6 +856,9 @@ main {
     width: 85%;
     margin: 34rem auto 0 auto;
   }
+  .modal .content {
+    width: 70%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -851,6 +880,15 @@ main {
   .mainWrapper .offerSign {
     right: 27rem;
     bottom: 7rem;
+  }
+  .popUpBackground .popUpDeal {
+    width: 78%;
+  }
+  .popUpBackground .popUpInfo {
+    font-size: 1.8rem;
+  }
+  .popUpBackground .popUpButton {
+    font-size: 1.2rem;
   }
 }
 
@@ -899,6 +937,13 @@ main {
   }
   .headerLogo img {
     width: 184%;
+  }
+  .modal .content {
+    width: 78%;
+  }
+  .popUpBackground .popUpDeal {
+    font-size: 3rem;
+    width: 74%;
   }
 }
 

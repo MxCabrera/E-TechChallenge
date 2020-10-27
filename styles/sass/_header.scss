@@ -120,7 +120,7 @@ header {
    display: flex;
    flex-direction: row;
    .popUpImage {
-      width: 74%;
+      width: 40%;
       margin-bottom: -0.5rem;
       img {
          width: 100%;
@@ -130,6 +130,7 @@ header {
 
 .popUpBackground {
    background-color: #C9DED9;
+   width: 65%;
    .popUpSale {
       background-color: #243746;
       color: white;

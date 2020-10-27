@@ -1,4 +1,7 @@
+
+
 // --- media query 1328px ---
+
 
 @media (max-width: 1328px) {
    header {
@@ -11,7 +14,22 @@
          width: 10%; 
       }
    }
+   .popUpFlex {
+      .popUpImage {
+         width: 45%;
+         object-fit: cover;
+      }
+   }
 
+}
+
+@media (max-width: 1295px) {
+   .popUpFlex {
+      .popUpImage {
+         width: 65%;
+         object-fit: cover;
+      }
+   }
 }
 
 
@@ -34,6 +52,12 @@
       }
       .offerSign {
          right: 33rem;
+      }
+   }
+   
+   .modal {
+      .content {
+         width: 50%;
       }
    }
 }
@@ -125,6 +149,15 @@
          right: 22rem;
          bottom: 12rem;
       }
+   }
+
+   .popUpFlex {
+      .popUpImage {
+         display: none;
+      }
+   }
+   .popUpBackground {
+      width: 100%;
    }
 }
 
@@ -238,7 +271,11 @@
          right: 41rem;
       }
    }
-
+   .modal {
+      .content {
+         width: 60%;
+      }
+   }
 }
 
 
@@ -284,6 +321,11 @@
          margin: 34rem auto 0 auto;
       }
    }
+   .modal {
+      .content {
+         width: 70%;
+      }
+   }
 }
 
 @media (max-width: 500px) {
@@ -306,6 +348,17 @@
       .offerSign {
          right: 27rem;
          bottom: 7rem;
+      }
+   }
+   .popUpBackground {
+      .popUpDeal {
+         width: 78%;
+      }
+      .popUpInfo {
+         font-size: 1.8rem;
+      }
+      .popUpButton {
+         font-size: 1.2rem;
       }
    }
 }
@@ -361,6 +414,17 @@
       margin-left: -10.5rem;
       img {
          width: 184%;
+      }
+   }
+   .modal {
+      .content {
+         width: 78%;
+      }
+   }
+   .popUpBackground {
+      .popUpDeal {
+         font-size: 3rem;
+         width: 74%;
       }
    }
 }
