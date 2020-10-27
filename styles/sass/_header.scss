@@ -1,0 +1,27 @@
+   //  font-family: 'Merriweather', serif;
+
+   //  font-family: 'Roboto', sans-serif;
+
+html {
+   font-size: 62.5%;
+}
+
+header {
+   .headerUpdate {
+      background-color: #243746;
+      text-align: center;
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: flex-end;
+      color: white;
+      .french {
+         float: right;
+      }
+   }
+}
+
+h1 {
+   color: red; 
+   text-align: center;
+
+}
