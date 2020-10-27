@@ -301,6 +301,10 @@ header .headerUpdate .french:hover {
   padding: 0.7rem 0.7rem;
 }
 
+.menuRow .fas {
+  display: none;
+}
+
 .menuRow li {
   width: 80%;
   list-style-type: none;
@@ -456,7 +460,7 @@ header .headerUpdate .french:hover {
   font-weight: 700;
   text-transform: uppercase;
   color: white;
-  border-right: 1px solid #910242;
+  border-right: 1px solid #383838;
   border-bottom: 1px solid #910242;
 }
 
@@ -567,7 +571,7 @@ main {
   margin-bottom: -1rem;
   background-color: #243746;
   color: white;
-  padding: 2rem;
+  padding: 2.5rem;
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -595,6 +599,9 @@ main {
   header .headerUpdate p {
     margin-right: 16rem;
   }
+  .mainWrapper .sale {
+    width: 10%;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -606,6 +613,12 @@ main {
   }
   .menuRow li a {
     font-size: 1.4rem;
+  }
+  .mainWrapper .mainDeal {
+    font-size: 4.7rem;
+  }
+  .mainWrapper .offerSign {
+    right: 33rem;
   }
 }
 
@@ -625,11 +638,38 @@ main {
   .headerLogo {
     width: 28%;
   }
+  .mainWrapper .sale {
+    width: 11%;
+  }
+  .mainWrapper .mainDeal {
+    font-size: 4.6rem;
+  }
 }
 
 @media (max-width: 1078px) {
   .menuRow li a {
     font-size: 1.2rem;
+  }
+  .mainWrapper .sale {
+    width: 12%;
+  }
+  .mainWrapper .mainDeal {
+    font-size: 4.4rem;
+  }
+  .mainWrapper button {
+    font-size: 1.3rem;
+  }
+  .mainWrapper .offerSign {
+    right: 28rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    background-image: url(../../images/endy-dreamiest-offer-ever-sale-hero-1024x645-2x.jpg);
+  }
+  .mainWrapper .terms {
+    margin-top: 35rem;
   }
 }
 
@@ -646,6 +686,13 @@ main {
   .headerLogo {
     width: 31%;
   }
+  .mainWrapper .sale {
+    font-size: 1.1rem;
+  }
+  .mainWrapper .offerSign {
+    right: 22rem;
+    bottom: 12rem;
+  }
 }
 
 @media (max-width: 870px) {
@@ -660,6 +707,83 @@ main {
   }
   header .headerUpdate .french {
     display: none;
+  }
+  .menuRow li a {
+    font-size: 1.1rem;
+  }
+  .headerLogo {
+    width: 34%;
+  }
+  .mainWrapper .sale {
+    width: 13%;
+  }
+  .mainWrapper .mainDeal {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex {
+    width: 83%;
+  }
+  .menuRow {
+    padding: 0rem 0.6rem;
+  }
+  .menuRow .fas {
+    display: block;
+    font-size: 1.5rem;
+    color: #C40058;
+    margin-top: 0.5rem;
+  }
+  .menuRow li {
+    visibility: hidden;
+  }
+  .menuRow .eCart {
+    margin-top: 0.5rem;
+  }
+  .headerLogo {
+    width: 39%;
+  }
+  main {
+    background-image: url(../../images/endy-dreamiest-offer-ever-sale-hero-768x600-2x.jpg);
+  }
+  .mainWrapper .sale {
+    width: 14%;
+    font-size: 1rem;
+  }
+  .mainWrapper .mainDeal {
+    font-size: 4rem;
+  }
+  .mainWrapper .dealInfo {
+    font-size: 1.9rem;
+  }
+  .mainWrapper button {
+    width: 80%;
+    padding: 1.6rem 3.7rem;
+    font-size: 1.2rem;
+  }
+  .mainWrapper .offerSign {
+    right: 48rem;
+    bottom: 3rem;
+    height: 110px;
+    width: 112px;
+  }
+  .mainWrapper .offerSign p {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    height: 95px;
+    width: 95px;
+    font-size: 1.3rem;
+  }
+  .mainWrapper .terms {
+    margin-top: 34rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .headerLogo {
+    width: 45%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
