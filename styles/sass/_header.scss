@@ -3,18 +3,17 @@ html {
    font-size: 62.5%;
 }
 
-
 header {
    .headerUpdate {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.6rem;
       background-color: #243746;
       text-align: center;
+      padding: 1rem 2rem;
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
       color: white;
-      font-size: 1.6rem;
-      font-family: 'Roboto', sans-serif;
-      padding: 1rem 2rem;
       p {
          margin-right: 22rem;
       }
@@ -72,73 +71,8 @@ header {
    }
 }
 
-h1 {
-   color: red; 
-   text-align: center;
 
-}
-
-.popUpImage {
-   width: 74%;
-   margin-bottom: -0.5rem;
-   img {
-      width: 100%;
-   }
-}
-
-.popUpSale {
-   background-color: #243746;
-   color: white;
-   padding: 0rem;
-   width: 40%;
-   text-align: center;
-   margin: 2.5rem auto;
-   text-transform: uppercase;
-   font-family: 'Roboto', sans-serif;
-   font-size: 1.2rem;
-   letter-spacing: 1.1px;
-   position: relative;
-}
-
-.popUpSale:before,
-.popUpSale:after {
-   content: '';
-   position: absolute;
-   left: 0; 
-   right: 0;
-   bottom: 100%;
-   border-bottom: 5px solid #243746;
-   border-left: 5px solid transparent;
-   border-right: 5px solid transparent;
-}
-
-.popUpSale:after {
-   bottom: auto;
-   top: 100%;
-   border-bottom: none;
-   border-top: 5px solid #243746;
-}
-
-.popUpDeal {
-   font-size: 3.2rem;
-   width: 70%;
-   text-align: center;
-   margin: 0 auto;
-   text-transform: capitalize;
-   font-family: 'Merriweather', serif;
-   color: #243746;
-   padding-bottom: 2rem;
-   border-bottom: 1px solid rgb(141, 140, 140);
-}
-
-.popUpInfo {
-   font-size: 2rem;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   width: 85%;
-   margin: 2rem auto;
-   line-height: 2.8rem;
-}
+// modal styles start here 
 
 .modal {
    position: fixed;
@@ -150,56 +84,111 @@ h1 {
 	height: 100%;
 	overflow: auto;
 	background-color: rgba(0, 0, 0, .4);
-}
-
-.content {
-	width: 40%;
-   border: none;
-   background-color: #fbfdfe;
-	margin: auto;
-	padding-right: 15px;
-	overflow: hidden;
-	text-align: center;
-   box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.75);	
-   background-color: #C9DED9;
-}
-
-.close {
-	color: #aaa;
-	float: right;
-	font-size: 30px;
-	font-weight: 700;
-}
-
-.close:focus,
-.close:hover {
-	color: #000;
-	text-decoration: none;
-	cursor: pointer;
+   .content {
+      width: 40%;
+      border: none;
+      background-color: #fbfdfe;
+      margin: auto;
+      padding-right: 15px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.75);	
+      background-color: #C9DED9;
+      .close {
+         color: #aaa;
+         float: right;
+         font-size: 30px;
+         font-weight: 700;
+      }
+      .close:focus,
+      .close:hover {
+         color: #000;
+         text-decoration: none;
+         cursor: pointer;
+      }
+   }
 }
 
 .popUpFlex {
    display: flex;
    flex-direction: row;
+   .popUpImage {
+      width: 74%;
+      margin-bottom: -0.5rem;
+      img {
+         width: 100%;
+      }
+   }
 }
 
 .popUpBackground {
    background-color: #C9DED9;
-}
-
-.popUpButton {
-   background-color: #C40058;
-   margin: 1rem 0 2rem 0;
-   border: none;
-   padding: 1.7rem 2.5rem;
-   font-size: 1.4rem;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700;
-   text-transform: uppercase;
-   color: white;
-   border-right: 1px solid #910242;
-   border-bottom: 1px solid#910242;
-   &:hover {
-      color: black;
+   .popUpSale {
+      background-color: #243746;
+      color: white;
+      padding: 0rem;
+      width: 40%;
+      text-align: center;
+      margin: 2.5rem auto;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+      letter-spacing: 1.1px;
+      position: relative;
+   }
+   .popUpSale:before,
+   .popUpSale:after {
+      content: '';
+      position: absolute;
+      left: 0; 
+      right: 0;
+      bottom: 100%;
+      border-bottom: 5px solid #243746;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+   }
+   .popUpSale:after {
+      bottom: auto;
+      top: 100%;
+      border-bottom: none;
+      border-top: 5px solid #243746;
+   }
+   .popUpDeal {
+      font-size: 3.2rem;
+      width: 70%;
+      text-align: center;
+      margin: 0 auto;
+      text-transform: capitalize;
+      font-family: 'Merriweather', serif;
+      color: #243746;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgb(141, 140, 140);
+   }
+   .popUpInfo {
+      font-size: 2rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      width: 85%;
+      margin: 2rem auto;
+      line-height: 2.8rem;
+   }
+   .popUpButton {
+      background-color: #C40058;
+      margin: 1rem 0 2rem 0;
+      border: none;
+      padding: 1.7rem 2.5rem;
+      font-size: 1.4rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: white;
+      border-right: 1px solid #910242;
+      border-bottom: 1px solid#910242;
+      &:hover {
+         color: black;
+      }
    }
 }
+
+
+
