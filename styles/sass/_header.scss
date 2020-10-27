@@ -68,7 +68,10 @@ header {
          font-family: 'Roboto', sans-serif;
          color: black;
          &:hover {
-            color: #a09d9d;
+            color: $color-two;
+            border-bottom: 3px solid $color-two;
+            padding-bottom: 1.7rem;
+            transition: all 0.5s;
          }
          &:focus {
             border: 1px solid $color-three;
@@ -207,10 +210,14 @@ header {
       font-weight: 700;
       text-transform: uppercase;
       color: $color-four;
-      border-right: 1px solid #383838;
+      border-radius: 2px;
       border-bottom: 1px solid #910242;
       &:hover {
-         color: $color-five;
+         color: $color-two;
+         background-color: transparent;
+         border: 5px solid $color-two; 
+         padding: 1.3rem 2.15rem;
+         transition: all 0.5s;
       }
       &:focus {
          border: 1px solid $color-three;

@@ -72,10 +72,14 @@ main {
       font-weight: 700;
       text-transform: uppercase;
       color: $color-four;
-      border-right: 1px solid #910242;
-      border-bottom: 1px solid#910242;
+      border-radius: 2px;
       &:hover {
-         color: $color-five;
+         color: $color-two;
+         background-color: transparent;
+         border: 5px solid $color-two; 
+         border-radius: 1px;
+         padding: 1.3rem 3.3rem;
+         transition: all 0.5s;
       }
       &:focus {
          border: 1px solid $color-three;

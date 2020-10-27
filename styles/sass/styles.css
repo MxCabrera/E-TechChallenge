@@ -328,7 +328,11 @@ header .headerUpdate .french:active {
 }
 
 .menuRow li a:hover {
-  color: #a09d9d;
+  color: #C40058;
+  border-bottom: 3px solid #C40058;
+  padding-bottom: 1.7rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .menuRow li a:focus {
@@ -484,12 +488,17 @@ header .headerUpdate .french:active {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-  border-right: 1px solid #383838;
+  border-radius: 2px;
   border-bottom: 1px solid #910242;
 }
 
 .popUpBackground .popUpButton:hover {
-  color: #000000;
+  color: #C40058;
+  background-color: transparent;
+  border: 5px solid #C40058;
+  padding: 1.3rem 2.15rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .popUpBackground .popUpButton:focus {
@@ -577,12 +586,17 @@ main {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
-  border-right: 1px solid #910242;
-  border-bottom: 1px solid #910242;
+  border-radius: 2px;
 }
 
 .mainWrapper button:hover {
-  color: #000000;
+  color: #C40058;
+  background-color: transparent;
+  border: 5px solid #C40058;
+  border-radius: 1px;
+  padding: 1.3rem 3.3rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .mainWrapper button:focus {
