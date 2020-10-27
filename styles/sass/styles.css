@@ -662,6 +662,9 @@ main {
   .mainWrapper .offerSign {
     right: 28rem;
   }
+  .mainWrapper .terms {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -748,7 +751,7 @@ main {
     background-image: url(../../images/endy-dreamiest-offer-ever-sale-hero-768x600-2x.jpg);
   }
   .mainWrapper .sale {
-    width: 14%;
+    width: 15%;
     font-size: 1rem;
   }
   .mainWrapper .mainDeal {
@@ -784,6 +787,139 @@ main {
 @media (max-width: 700px) {
   .headerLogo {
     width: 45%;
+  }
+  .mainWrapper .sale {
+    width: 16%;
+  }
+  .mainWrapper .offerSign {
+    right: 41rem;
+  }
+}
+
+@media (max-width: 633px) {
+  .headerLogo {
+    width: 55%;
+    margin-left: -1.5rem;
+  }
+  .mainWrapper .sale {
+    width: 18%;
+  }
+}
+
+@media (max-width: 580px) {
+  .headerLogo {
+    width: 55%;
+    margin-left: -4rem;
+  }
+  .headerLogo img {
+    width: 111%;
+  }
+}
+
+@media (max-width: 547px) {
+  .flex {
+    width: 87%;
+  }
+  .mainWrapper .sale {
+    width: 20%;
+  }
+  .mainWrapper .offerSign {
+    right: 36rem;
+  }
+  .mainWrapper .terms {
+    width: 85%;
+    margin: 34rem auto 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .headerLogo {
+    margin-left: -6rem;
+    width: 60%;
+  }
+  main {
+    background-image: url(../../images/endy-dreamiest-offer-ever-sale-hero-500X600-2x.jpg);
+  }
+  .mainWrapper .sale {
+    width: 23%;
+  }
+  .mainWrapper .mainDeal,
+  .mainWrapper .dealInfo {
+    width: 75%;
+    margin: 1rem auto;
+  }
+  .mainWrapper .offerSign {
+    right: 27rem;
+    bottom: 7rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .headerLogo {
+    margin-left: -7rem;
+  }
+  .headerLogo img {
+    width: 130%;
+  }
+}
+
+@media (max-width: 451px) {
+  .headerLogo {
+    margin-left: -8rem;
+  }
+  .headerLogo img {
+    width: 150%;
+  }
+  .mainWrapper .offerSign {
+    right: 23rem;
+  }
+  .mainWrapper .terms {
+    line-height: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .headerLogo {
+    margin-left: -9.5rem;
+  }
+  .headerLogo img {
+    width: 175%;
+  }
+  .mainWrapper .sale {
+    width: 29%;
+  }
+  .mainWrapper .dealInfo {
+    width: 85%;
+  }
+}
+
+@media (max-width: 400px) {
+  .headerLogo {
+    margin-left: -10.5rem;
+  }
+  .headerLogo img {
+    width: 184%;
+  }
+}
+
+@media (max-width: 385px) {
+  .headerLogo {
+    margin-left: -10.5rem;
+  }
+  .headerLogo img {
+    width: 200%;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerLogo {
+    margin-left: -10.5rem;
+  }
+  .headerLogo img {
+    width: 240%;
+  }
+  main {
+    background-image: url(../../images/endy-dreamiest-offer-ever-sale-hero-375x600-2x.jpg);
   }
 }
 /*# sourceMappingURL=styles.css.map */
