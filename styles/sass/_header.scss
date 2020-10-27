@@ -23,7 +23,9 @@ header {
          text-decoration: none;
          color: white;
          margin-top: 1.5rem;
-
+         &:hover {
+            color: grey;
+         }
       }
    }
 }

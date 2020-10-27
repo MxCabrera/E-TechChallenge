@@ -269,6 +269,10 @@ header .headerUpdate .french {
   margin-top: 1.5rem;
 }
 
+header .headerUpdate .french:hover {
+  color: grey;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
