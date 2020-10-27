@@ -255,7 +255,7 @@ header .headerUpdate {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  color: white;
+  color: #ffffff;
 }
 
 header .headerUpdate p {
@@ -265,12 +265,12 @@ header .headerUpdate p {
 header .headerUpdate .french {
   text-transform: uppercase;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   margin-top: 1.5rem;
 }
 
 header .headerUpdate .french:hover {
-  color: grey;
+  color: #808080;
 }
 
 .flex {
@@ -343,7 +343,7 @@ header .headerUpdate .french:hover {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #00000066;
 }
 
 .modal .content {
@@ -354,13 +354,13 @@ header .headerUpdate .french:hover {
   padding-right: 15px;
   overflow: hidden;
   text-align: center;
-  -webkit-box-shadow: 1px 1px 14px 3px rgba(0, 0, 0, 0.75);
-          box-shadow: 1px 1px 14px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 14px 3px #000000bf;
+          box-shadow: 1px 1px 14px 3px #000000bf;
   background-color: #C9DED9;
 }
 
 .modal .content .close {
-  color: #aaa;
+  color: #000000;
   float: right;
   font-size: 30px;
   font-weight: 700;
@@ -368,7 +368,7 @@ header .headerUpdate .french:hover {
 
 .modal .content .close:focus,
 .modal .content .close:hover {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -405,10 +405,15 @@ header .headerUpdate .french:hover {
   text-align: center;
   margin: 2.5rem auto;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   letter-spacing: 1.1px;
   position: relative;
+}
+
+.popUpBackground .popUpSale,
+.popUpBackground .popUpInfo,
+.popUpBackground .popUpButton {
+  font-family: 'Roboto', sans-serif;
 }
 
 .popUpBackground .popUpSale:before,
@@ -444,7 +449,6 @@ header .headerUpdate .french:hover {
 
 .popUpBackground .popUpInfo {
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   width: 85%;
   margin: 2rem auto;
@@ -457,16 +461,15 @@ header .headerUpdate .french:hover {
   border: none;
   padding: 1.7rem 2.5rem;
   font-size: 1.4rem;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   border-right: 1px solid #383838;
   border-bottom: 1px solid #910242;
 }
 
 .popUpBackground .popUpButton:hover {
-  color: black;
+  color: #000000;
 }
 
 main {
@@ -485,7 +488,7 @@ main {
 
 .mainWrapper .sale {
   width: 9%;
-  color: white;
+  color: #ffffff;
   padding: 0rem;
   font-size: 1.2rem;
   text-align: center;
@@ -545,13 +548,13 @@ main {
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   border-right: 1px solid #910242;
   border-bottom: 1px solid #910242;
 }
 
 .mainWrapper button:hover {
-  color: black;
+  color: #000000;
 }
 
 .mainWrapper .offerSign {
@@ -571,7 +574,7 @@ main {
   margin: -0.5rem -1.5rem 0 0;
   margin-bottom: -1rem;
   background-color: #243746;
-  color: white;
+  color: #ffffff;
   padding: 2.5rem;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -579,17 +582,17 @@ main {
   border-radius: 50%;
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
-  border-radius: 1px solid black;
+  border-radius: 1px solid #000000;
 }
 
 .mainWrapper .terms {
   margin-top: 37rem;
   font-size: 1.3rem;
-  color: white;
+  color: #ffffff;
 }
 
 .mainWrapper .terms a {
-  color: white;
+  color: #ffffff;
 }
 
 .mainWrapper .terms a:hover {
@@ -760,6 +763,9 @@ main {
     font-size: 1.5rem;
     color: #C40058;
     margin-top: 0.5rem;
+  }
+  .menuRow .fas:hover {
+    color: #243746;
   }
   .menuRow li {
     visibility: hidden;

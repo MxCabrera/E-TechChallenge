@@ -2,7 +2,7 @@
 main {
    background: url(../../images/desktop1440.jpg);
    background-size: cover;
-   background-color: #C9DED9;
+   background-color: $color-three;
    background-position: center;
    padding: 1rem 0;
    margin-top: -3px;
@@ -13,7 +13,7 @@ main {
    position: relative;
    .sale {
       width: 9%;
-      color: white;
+      color: $color-four;
       padding: 0rem;
       font-size: 1.2rem;
       text-align: center;
@@ -21,7 +21,7 @@ main {
       margin: 2.5rem auto;
       letter-spacing: 1.1px;
       text-transform: uppercase;
-      background-color: #243746;
+      background-color: $color-one;
    }
    .sale:before,
    .sale:after {
@@ -30,7 +30,7 @@ main {
       content: '';
       bottom: 100%;
       position: absolute;
-      border-bottom: 5px solid #243746;
+      border-bottom: 5px solid $color-one;
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
    }
@@ -38,10 +38,10 @@ main {
       top: 100%;
       bottom: auto;
       border-bottom: none;
-      border-top: 5px solid #243746;
+      border-top: 5px solid $color-one;
    }
    .mainDeal {
-      color: #243746;
+      color: $color-one;
       font-size: 4.8rem;
       margin: 1.5rem 0 2rem 0;
       text-transform: capitalize;
@@ -60,23 +60,23 @@ main {
       font-family: 'Roboto', sans-serif;
    }
    button {
-      background-color: #C40058;
+      background-color: $color-two;
       margin-top: 1rem;
       border: none;
       padding: 1.8rem 3.7rem;
       font-size: 1.4rem;
       font-weight: 700;
       text-transform: uppercase;
-      color: white;
+      color: $color-four;
       border-right: 1px solid #910242;
       border-bottom: 1px solid#910242;
       &:hover {
-         color: black;
+         color: $color-five;
       }
    }
    .offerSign {
       position: absolute;
-      border: 3px solid #243746;
+      border: 3px solid $color-one;
       border-radius: 50%;
       padding: 0.7rem;
       height: 115px;
@@ -89,25 +89,25 @@ main {
          width: 100px;
          margin: -0.5rem -1.5rem 0 0;
          margin-bottom: -1rem;
-         background-color: #243746;
-         color: white;
+         background-color: $color-one;
+         color: $color-four;
          padding: 2.5rem;
          font-size: 1.4rem;
          text-transform: uppercase;
          font-weight: 700;
          border-radius: 50%;
          transform: rotate(20deg);
-         border-radius: 1px solid black;
+         border-radius: 1px solid $color-five;
       }
    }
    .terms {
       margin-top: 37rem;
       font-size: 1.3rem;
-      color: white;
+      color: $color-four;
       a {
-         color: white;
+         color: $color-four;
          &:hover {
-            color: #C40058;
+            color: $color-two;
          }
       }   
    }

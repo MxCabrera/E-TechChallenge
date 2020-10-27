@@ -11,23 +11,23 @@ header {
    .headerUpdate {
       font-family: 'Roboto', sans-serif;
       font-size: 1.6rem;
-      background-color: #243746;
+      background-color: $color-one;
       text-align: center;
       padding: 1rem 2rem;
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
-      color: white;
+      color: $color-four;
       p {
          margin-right: 22rem;
       }
       .french {
          text-transform: uppercase;
          text-decoration: none;
-         color: white;
+         color: $color-four;
          margin-top: 1.5rem;
          &:hover {
-            color: grey;
+            color: #808080;
          }
       }
    }
@@ -62,7 +62,7 @@ header {
          font-family: 'Roboto', sans-serif;
          color: black;
          &:hover {
-            color: rgb(160, 157, 157);
+            color: #a09d9d;
          }
       }
    }
@@ -90,7 +90,7 @@ header {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	background-color: rgba(0, 0, 0, .4);
+	background-color: #00000066;
    .content {
       width: 40%;
       border: none;
@@ -99,17 +99,17 @@ header {
       padding-right: 15px;
       overflow: hidden;
       text-align: center;
-      box-shadow: 1px 1px 14px 3px rgba(0,0,0,0.75);	
-      background-color: #C9DED9;
+      box-shadow: 1px 1px 14px 3px #000000bf;	
+      background-color: $color-three;
       .close {
-         color: #aaa;
+         color: $color-five;
          float: right;
          font-size: 30px;
          font-weight: 700;
       }
       .close:focus,
       .close:hover {
-         color: #000;
+         color: $color-four;
          text-decoration: none;
          cursor: pointer;
       }
@@ -129,20 +129,24 @@ header {
 }
 
 .popUpBackground {
-   background-color: #C9DED9;
+   background-color: $color-three;
    width: 65%;
    .popUpSale {
-      background-color: #243746;
+      background-color: $color-one;
       color: white;
       padding: 0rem;
       width: 40%;
       text-align: center;
       margin: 2.5rem auto;
       text-transform: uppercase;
-      font-family: 'Roboto', sans-serif;
       font-size: 1.2rem;
       letter-spacing: 1.1px;
       position: relative;
+   }
+   .popUpSale,
+   .popUpInfo,
+   .popUpButton {
+      font-family: 'Roboto', sans-serif;
    }
    .popUpSale:before,
    .popUpSale:after {
@@ -151,7 +155,7 @@ header {
       left: 0; 
       right: 0;
       bottom: 100%;
-      border-bottom: 5px solid #243746;
+      border-bottom: 5px solid $color-one;
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
    }
@@ -159,7 +163,7 @@ header {
       bottom: auto;
       top: 100%;
       border-bottom: none;
-      border-top: 5px solid #243746;
+      border-top: 5px solid $color-one;
    }
    .popUpDeal {
       font-size: 3.2rem;
@@ -168,32 +172,30 @@ header {
       margin: 0 auto;
       text-transform: capitalize;
       font-family: 'Merriweather', serif;
-      color: #243746;
+      color: $color-one;
       padding-bottom: 2rem;
-      border-bottom: 1px solid rgb(141, 140, 140);
+      border-bottom: 1px solid #8d8c8c;
    }
    .popUpInfo {
       font-size: 2rem;
-      font-family: 'Roboto', sans-serif;
       font-weight: 400;
       width: 85%;
       margin: 2rem auto;
       line-height: 2.8rem;
    }
    .popUpButton {
-      background-color: #C40058;
+      background-color: $color-two;
       margin: 1rem 0 2rem 0;
       border: none;
       padding: 1.7rem 2.5rem;
       font-size: 1.4rem;
-      font-family: 'Roboto', sans-serif;
       font-weight: 700;
       text-transform: uppercase;
-      color: white;
+      color: $color-four;
       border-right: 1px solid #383838;
-      border-bottom: 1px solid#910242;
+      border-bottom: 1px solid #910242;
       &:hover {
-         color: black;
+         color: $color-five;
       }
    }
 }

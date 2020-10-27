@@ -213,8 +213,11 @@
       .fas {
          display: block;
          font-size: 1.5rem;
-         color: #C40058;
+         color: $color-two;
          margin-top: 0.5rem;
+         &:hover {
+            color: $color-one;
+         }
       }
       li {
          visibility: hidden;
