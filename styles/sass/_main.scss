@@ -1,6 +1,7 @@
 
 main {
-   background-image: url('/images/desktop1440.jpg');
+   background: url(../../images/desktop1440.jpg);
+   background-size: contain;
    background-color: #C9DED9;
    padding: 1rem 0;
    margin-top: -3px;
@@ -84,7 +85,7 @@ button {
 
 .offerSign {
    position: absolute;
-   border: 3px solid black;
+   border: 3px solid #243746;
    border-radius: 50%;
    padding: 0.7rem;
    height: 115px;
