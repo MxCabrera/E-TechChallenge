@@ -273,6 +273,14 @@ header .headerUpdate .french:hover {
   color: #808080;
 }
 
+header .headerUpdate .french:focus {
+  border: 1px solid #C9DED9;
+}
+
+header .headerUpdate .french:active {
+  border: 1px solid #C40058;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,6 +331,14 @@ header .headerUpdate .french:hover {
   color: #a09d9d;
 }
 
+.menuRow li a:focus {
+  border: 1px solid #C9DED9;
+}
+
+.menuRow li a:active {
+  border: 1px solid #C40058;
+}
+
 .headerLogo {
   width: 20%;
   display: block;
@@ -366,6 +382,10 @@ header .headerUpdate .french:hover {
   font-weight: 700;
 }
 
+.modal .content .close:active {
+  color: #C40058;
+}
+
 .modal .content .close:focus,
 .modal .content .close:hover {
   color: #ffffff;
@@ -399,7 +419,7 @@ header .headerUpdate .french:hover {
 
 .popUpBackground .popUpSale {
   background-color: #243746;
-  color: white;
+  color: #ffffff;
   padding: 0rem;
   width: 40%;
   text-align: center;
@@ -470,6 +490,14 @@ header .headerUpdate .french:hover {
 
 .popUpBackground .popUpButton:hover {
   color: #000000;
+}
+
+.popUpBackground .popUpButton:focus {
+  border: 1px solid #C9DED9;
+}
+
+.popUpBackground .popUpButton:active {
+  border: 1px solid #C40058;
 }
 
 main {
@@ -557,6 +585,14 @@ main {
   color: #000000;
 }
 
+.mainWrapper button:focus {
+  border: 1px solid #C9DED9;
+}
+
+.mainWrapper button:active {
+  border: 1px solid #C40058;
+}
+
 .mainWrapper .offerSign {
   position: absolute;
   border: 3px solid #243746;
@@ -597,6 +633,14 @@ main {
 
 .mainWrapper .terms a:hover {
   color: #C40058;
+}
+
+.mainWrapper .terms a:focus {
+  border: 1px solid #C9DED9;
+}
+
+.mainWrapper .terms a:active {
+  border: 1px solid #C40058;
 }
 
 @media (max-width: 1328px) {

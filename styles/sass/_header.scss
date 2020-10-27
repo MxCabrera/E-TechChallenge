@@ -29,6 +29,12 @@ header {
          &:hover {
             color: #808080;
          }
+         &:focus {
+            border: 1px solid $color-three;
+         }
+         &:active {
+            border: 1px solid $color-two;
+         }
       }
    }
 }
@@ -63,6 +69,12 @@ header {
          color: black;
          &:hover {
             color: #a09d9d;
+         }
+         &:focus {
+            border: 1px solid $color-three;
+         }
+         &:active {
+            border: 1px solid $color-two;
          }
       }
    }
@@ -107,6 +119,9 @@ header {
          font-size: 30px;
          font-weight: 700;
       }
+      .close:active {
+         color: $color-two;
+      }
       .close:focus,
       .close:hover {
          color: $color-four;
@@ -133,7 +148,7 @@ header {
    width: 65%;
    .popUpSale {
       background-color: $color-one;
-      color: white;
+      color: $color-four;
       padding: 0rem;
       width: 40%;
       text-align: center;
@@ -196,6 +211,12 @@ header {
       border-bottom: 1px solid #910242;
       &:hover {
          color: $color-five;
+      }
+      &:focus {
+         border: 1px solid $color-three;
+      }
+      &:active {
+         border: 1px solid $color-two;
       }
    }
 }
